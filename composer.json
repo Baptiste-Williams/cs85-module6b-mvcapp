@@ -1,0 +1,10 @@
+{
+  "name": "baptistewilliams/fitness-tracker",
+  "description": "A fitness tracker built using PHP and MVC",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
