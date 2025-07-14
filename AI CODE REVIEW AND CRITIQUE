@@ -1,0 +1,31 @@
+Hello All, 
+
+I asked Ai to write a php fucntion that adds workouts to a class and will return workout descriptions.
+
+This is what it gave me. 
+
+class FitnessTracker {
+  public $name;
+  public $workouts = [];
+
+  public function addWorkout($type, $duration) {
+    $this->workouts[] = "$type for $duration minutes";
+  }
+
+  public function getWorkoutSummary() {
+    return implode(", ", $this->workouts);
+  }
+}
+
+
+
+My Thoughts
+The code mostly worked. I liked how it added workouts using clean strings. The addWorkout() method was 
+solid, so I kept that.
+
+The summary method wasn’t useful for me — I didn’t need one long sentence. I was looping through each 
+workout in my view file anyway, so I skipped that part.
+
+I made changes to fit the way MVC works in my project. Instead of trying to return a summary, I used the
+workouts array directly in the view. 
+The AI gave me a decent starting point, and I tweaked it to match what I needed.
