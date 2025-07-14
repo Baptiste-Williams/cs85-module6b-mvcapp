@@ -1,0 +1,26 @@
+
+My Reflection:
+
+Reflection
+I picked fitness tracking because it felt familiar and easy to build around. I didn’t want to overthink 
+the topic — I just wanted something that made sense. Tracking workouts seemed useful and gave me a way 
+to test what I was learning in PHP without going into something complicated.
+
+My app shows a workout log for a person named Baptiste. I hardcoded a couple sessions like “Running for
+30 minutes” and “Stretching for 15 minutes” to test if things worked. The controller adds workouts, 
+the model stores them, and the view displays them. I used Composer for autoloading and made sure the file paths matched.
+Once I got it to show workouts in the browser, I knew I was on the right track.
+
+The hardest part was Git. I kept getting errors when trying to push to GitHub — things about branches, remotes, and commits
+that didn’t go through. I didn’t fully understand why it wasn’t working, but I kept trying different commands
+until it finally pushed. That took more time than I expected.
+
+I learned that MVC helps break things up so your code stays organized. 
+The model is for data, the controller does the work, and the view shows what the user sees. Once it clicked, everything got easier. 
+I didn’t have to jam all the code into one file. It also made it easier to fix problems because each part did one job.
+
+As for the AI, it gave me some decent code. The method for adding workouts worked, but I didn’t use the 
+part where it tried to summarize everything into one string — that didn’t fit my app. I tweaked the AI’s class so it worked with my project layout. 
+It helped me get started, but I had to make changes to make it actually work for what I needed.
+
+Baptiste
